@@ -38,6 +38,21 @@ pops up between fights, every "trial" is a physical puzzle that *is* the maths:
 Every trial ships in **English and Russian**, with voiced characters, and
 works on laptops, tablets and phones (there is also an Android app).
 
+## Why Lumia wins: a learning dataset no quiz can collect
+
+A quiz learns one thing about a child: right or wrong. Lumia records every
+round of every trial: correct or not, how long it took, whether the child gave
+up, tagged against **192 maths topics for Grades 1–4**. Because the same skill
+is measured through many different mechanics (a balance, a river crossing, a
+rope trail), we can tell *which kind* of thinking a child is missing, not just
+which topic. The server is the referee, so a child can't fake a result.
+
+That dataset drives Lumia's personalisation loop. Each mechanic is
+hand-built with difficulty dials, and AI turns the dials for each child. A
+child who is strong at number patterns but weak at comparing lengths gets a
+next river crossing that eases only the lengths and keeps the number puzzle
+at full challenge. Details: [**MOAT.md**](MOAT.md).
+
 ## Traction
 
 | | |
@@ -59,22 +74,13 @@ dates and numbers. In short:
   grown-ups' panel, an in-game Starlight currency, a voiced narration system,
   full Russian translation, the lumia.game waitlist, and the Android app.
 
-## How it works (one paragraph)
-
-The game runs in the browser. A game server is the **referee**. The child's
-browser shows the world and the puzzle, but the server decides whether an
-answer is right and what reward it earns. A child cannot fake a win by editing
-the page. Each trial's rules live in **one file** that the browser, the server
-and the tests all read, so what the child sees and what the server records can
-never disagree. Diagrams and details: [**ARCHITECTURE.md**](ARCHITECTURE.md).
-
 ## What's in this repository
 
 | Path | What it is |
 |---|---|
 | [`README.md`](README.md) | This page |
 | [`HACKATHON.md`](HACKATHON.md) | What existed before Sep 14 and what we built during the hackathon |
-| [`ARCHITECTURE.md`](ARCHITECTURE.md) | How the game, the server and our content pipeline fit together |
+| [`MOAT.md`](MOAT.md) | Our learning dataset and the personalisation loop it powers |
 | [`samples/`](samples/) | Real, unedited code from the shipped game, with a guide to each file |
 | [`LICENSE`](LICENSE) | All rights reserved; code shown for evaluation only |
 
