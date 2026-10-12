@@ -1,0 +1,38 @@
+[
+  {
+    "id": "hall-of-scales.topic",
+    "text": "Сделай обе стороны равными",
+    "status": "approved",
+    "sourceRevision": "d3889a72d6ae12948dec1b833c30403d50cbc2084ce8289f284ddf20d3a7d930"
+  },
+  {
+    "id": "hall-of-scales.passed",
+    "text": "Весы уравновешены, и путь открыт.",
+    "status": "approved",
+    "sourceRevision": "707876e74c7364a556985a598248f564e202a9df02031273f1e1af9a042c68ff"
+  },
+  {
+    "id": "hall-of-scales.failed",
+    "text": "Весы ещё наклоняются. Храм терпеливо ждёт.",
+    "status": "approved",
+    "sourceRevision": "cda82e99924b9615ea987b53659ca32be9b9c83e4e1d88548e25ce75a99127b3"
+  },
+  {
+    "id": "hall-of-scales.prompt",
+    "text": "Посмотреть на весы",
+    "status": "approved",
+    "sourceRevision": "6d89b1c1c88106553de1573e7330e98be5869e9349d5c85c9ab8ce8299d630e7"
+  },
+  {
+    "id": "hall-of-scales.stop",
+    "text": "Закончить взвешивание",
+    "status": "approved",
+    "sourceRevision": "bce1a5b4dd7c6f5b65cc0323d19530733c15d2ed022f44cf2167460be313a975"
+  },
+  {
+    "id": "hall-of-scales.door-opened",
+    "text": "{name} открывает дверь. Скорее, она открыта целую минуту!",
+    "status": "approved",
+    "sourceRevision": "1672564cf361d8d00eb341f3e21ae270b70c54f51a8d45a0bd048442dd9541cd"
+  }
+]

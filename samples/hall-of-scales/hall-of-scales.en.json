@@ -1,0 +1,40 @@
+[
+  {
+    "id": "hall-of-scales.topic",
+    "source": "Make both sides the same",
+    "parameters": {},
+    "context": "hall-of-scales: presentation only; preserve canonical questions, answers, first-answer scoring, active input, timers and reporting."
+  },
+  {
+    "id": "hall-of-scales.passed",
+    "source": "The beam hangs true, and the way is open.",
+    "parameters": {},
+    "context": "hall-of-scales: presentation only; preserve canonical questions, answers, first-answer scoring, active input, timers and reporting."
+  },
+  {
+    "id": "hall-of-scales.failed",
+    "source": "The beam still leans. The Temple keeps its patience.",
+    "parameters": {},
+    "context": "hall-of-scales: presentation only; preserve canonical questions, answers, first-answer scoring, active input, timers and reporting."
+  },
+  {
+    "id": "hall-of-scales.prompt",
+    "source": "Read the balance",
+    "parameters": {},
+    "context": "hall-of-scales: presentation only; preserve canonical questions, answers, first-answer scoring, active input, timers and reporting."
+  },
+  {
+    "id": "hall-of-scales.stop",
+    "source": "Stop weighing",
+    "parameters": {},
+    "context": "hall-of-scales: presentation only; preserve canonical questions, answers, first-answer scoring, active input, timers and reporting."
+  },
+  {
+    "id": "hall-of-scales.door-opened",
+    "source": "{name} opened a door. Hurry, it stays open for a minute!",
+    "parameters": {
+      "name": "text"
+    },
+    "context": "hall-of-scales: a short flash shown to everyone else in the Temple hall when another player wins a door. {name} is that player. Kids 6-10: simple words."
+  }
+]
