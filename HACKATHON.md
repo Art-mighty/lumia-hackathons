@@ -2,9 +2,9 @@
 
 Lumia started on Jul 23, 2026. As of Oct 12:
 
-| Commits | Lines of code | Test files |
+| Commits | Lines of code | Tests written |
 |---|---|---|
-| 2,415 | ~284,000 | 391 |
+| 2,415 | ~284,000 | 5,122 |
 
 Two main authors, working with AI coding assistants (Claude Code, Codex).
 
