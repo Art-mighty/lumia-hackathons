@@ -1,14 +1,10 @@
 # Before and during the hackathon
 
-Lumia started on Jul 23, 2026. Colosseum judges only work from Sep 14 to
-Oct 12. Numbers below come from our private repo's git history, cut at
-Sep 14, 00:00 Pacific.
+Lumia started on Jul 23, 2026. As of Oct 12:
 
-| | Before (Jul 23 – Sep 13) | During (Sep 14 – Oct 12) |
+| Commits | Lines of code | Test files |
 |---|---|---|
-| Commits | 1,119 | 1,296 |
-| Lines of code added | | ~238,000 |
-| Test files added | | 179 (391 total) |
+| 2,415 | ~284,000 | 391 |
 
 Two main authors, working with AI coding assistants (Claude Code, Codex).
 
